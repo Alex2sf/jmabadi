@@ -5,27 +5,27 @@ export const Clients: React.FC = () => {
   const clients = [
     {
       name: 'PLN (Perusahaan Listrik Negara)',
-      logo: '/assets/clients/client-1.jpg',
+      logo: '/assets/clients/client-2.jpg',
       category: 'BUMN Energi',
     },
     {
       name: 'PT INTECS TEKNIKATAMA INDUSTRI',
-      logo: '/assets/clients/client-6.png',
+      logo: '/assets/clients/client-5.png',
       category: 'Industrial Engineering',
     },
     {
       name: 'APM',
-      logo: '/assets/clients/client-5.png',
+      logo: '/assets/clients/client-6.png',
       category: 'Automotive & Manufacturing',
     },
     {
       name: 'FSCM Mfg Indonesia',
-      logo: '/assets/clients/client-2.jpg',
+      logo: '/assets/clients/client-3.jpg',
       category: 'Automotive Component',
     },
     {
       name: 'Railink (Kereta Api Bandara)',
-      logo: '/assets/clients/client-3.jpg',
+      logo: '/assets/clients/client-8.png',
       category: 'Transportasi & Infrastruktur',
     },
     {
@@ -35,7 +35,7 @@ export const Clients: React.FC = () => {
     },
     {
       name: 'UeL',
-      logo: '/assets/clients/client-8.png',
+      logo: '/assets/clients/client-7.png',
       category: 'Engineering & Supply',
     },
   ];
