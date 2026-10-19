@@ -27,7 +27,7 @@ export const FloatingWhatsApp: React.FC = () => {
 
       {/* Floating Button */}
       <a
-        href="https://wa.me/6282250580331?text=Halo%20PT%20Jeruk%20Manis%20Abadi%2C%20saya%20tertarik%20untuk%20konsultasi%20kebutuhan%20fabrikasi%20dan%20engineering."
+        href="https://wa.me/6285819740657?text=Halo%20PT%20Jeruk%20Manis%20Abadi%2C%20saya%20tertarik%20untuk%20konsultasi%20kebutuhan%20fabrikasi%20dan%20engineering."
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 relative group"

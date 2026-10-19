@@ -132,13 +132,16 @@ export const Footer: React.FC = () => {
                 <MapPin className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
                 <span>Setu, Kab. Bekasi &amp; TB Simatupang, Jakarta</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-orange-500 shrink-0" />
-                <span>+62 8225-0580-331</span>
+              <div className="flex items-start gap-2">
+                <Phone className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-0.5">
+                  <a href="https://wa.me/6285819740657" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">+62 858 1974 0657</a>
+                  <a href="https://wa.me/6282250580331" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">+62 822 5058 0331</a>
+                </div>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-orange-500 shrink-0" />
-                <span>sales@JMabadi.com</span>
+                <a href="mailto:sales@jmabadi.id" className="hover:text-orange-400 transition-colors">sales@jmabadi.id</a>
               </div>
             </div>
 

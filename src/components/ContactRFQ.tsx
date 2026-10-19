@@ -43,7 +43,7 @@ Dikirim melalui website resmi jmabadi.id`;
     const body = encodeURIComponent(
       `Yth. Sales & Estimating Team PT Jeruk Manis Abadi,\n\nSaya ingin meminta penawaran harga untuk:\n\nNama: ${formData.name}\nPerusahaan: ${formData.company}\nNo Kontak: ${formData.phone}\nLayanan: ${formData.service}\n\nDetail Kebutuhan:\n${formData.message}\n\nTerima kasih.`
     );
-    window.location.href = `mailto:sales@JMabadi.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:sales@jmabadi.id?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -216,6 +216,24 @@ Dikirim melalui website resmi jmabadi.id`;
               </h3>
 
               <div className="space-y-4">
+                {/* WhatsApp Hotline 1 */}
+                <a
+                  href="https://wa.me/6285819740657"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 border border-slate-700/60 transition group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-emerald-600/20 text-emerald-400 flex items-center justify-center shrink-0">
+                    <MessageSquare className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline WhatsApp Sales 1</span>
+                    <p className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62 858 1974 0657</p>
+                    <span className="text-[10px] text-slate-400">Respon cepat jam kerja (08.00 - 17.00 WIB)</span>
+                  </div>
+                </a>
+
+                {/* WhatsApp Hotline 2 */}
                 <a
                   href="https://wa.me/6282250580331"
                   target="_blank"
@@ -226,9 +244,9 @@ Dikirim melalui website resmi jmabadi.id`;
                     <MessageSquare className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline WhatsApp Sales</span>
-                    <p className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62 8225-0580-331</p>
-                    <span className="text-[10px] text-slate-400">Respon cepat jam kerja (08.00 - 17.00 WIB)</span>
+                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline WhatsApp Sales 2</span>
+                    <p className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62 822 5058 0331</p>
+                    <span className="text-[10px] text-slate-400">Respon cepat konsultasi teknik &amp; proyek</span>
                   </div>
                 </a>
 
@@ -248,7 +266,7 @@ Dikirim melalui website resmi jmabadi.id`;
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <a
-                    href="mailto:sales@JMabadi.com"
+                    href="mailto:sales@jmabadi.id"
                     className="p-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 border border-slate-700/60 transition group"
                   >
                     <div className="flex items-center gap-2 mb-1">
@@ -256,12 +274,12 @@ Dikirim melalui website resmi jmabadi.id`;
                       <span className="text-[10px] font-semibold text-slate-400 uppercase">Sales &amp; RFQ</span>
                     </div>
                     <span className="text-xs font-bold text-white group-hover:text-orange-400 transition-colors break-all">
-                      sales@JMabadi.com
+                      sales@jmabadi.id
                     </span>
                   </a>
 
                   <a
-                    href="mailto:office@JMabadi.com"
+                    href="mailto:office@jmabadi.id"
                     className="p-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 border border-slate-700/60 transition group"
                   >
                     <div className="flex items-center gap-2 mb-1">
@@ -269,7 +287,7 @@ Dikirim melalui website resmi jmabadi.id`;
                       <span className="text-[10px] font-semibold text-slate-400 uppercase">Corporate Office</span>
                     </div>
                     <span className="text-xs font-bold text-white group-hover:text-orange-400 transition-colors break-all">
-                      office@JMabadi.com
+                      office@jmabadi.id
                     </span>
                   </a>
                 </div>

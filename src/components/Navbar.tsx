@@ -80,7 +80,7 @@ export const Navbar: React.FC = () => {
             </a>
 
             <a
-              href="https://wa.me/6282250580331?text=Halo%20PT%20Jeruk%20Manis%20Abadi%2C%20saya%20ingin%20konsultasi%20dan%20meminta%20penawaran%20harga%20(RFQ)%20untuk%20kebutuhan%20industri."
+              href="https://wa.me/6285819740657?text=Halo%20PT%20Jeruk%20Manis%20Abadi%2C%20saya%20ingin%20konsultasi%20dan%20meminta%20penawaran%20harga%20(RFQ)%20untuk%20kebutuhan%20industri."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white bg-orange-600 hover:bg-orange-700 active:scale-95 shadow-md shadow-orange-500/20 rounded-lg transition-all"
@@ -127,7 +127,7 @@ export const Navbar: React.FC = () => {
               Download Company Profile (PDF)
             </a>
             <a
-              href="https://wa.me/6282250580331?text=Halo%20PT%20Jeruk%20Manis%20Abadi%2C%20saya%20ingin%20meminta%20penawaran%20harga%20(RFQ)."
+              href="https://wa.me/6285819740657?text=Halo%20PT%20Jeruk%20Manis%20Abadi%2C%20saya%20ingin%20meminta%20penawaran%20harga%20(RFQ)."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-2.5 px-4 text-sm font-semibold text-white bg-orange-600 rounded-lg hover:bg-orange-700 shadow-sm"
