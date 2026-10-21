@@ -227,7 +227,7 @@ Dikirim melalui website resmi jmabadi.id`;
                     <MessageSquare className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline WhatsApp Sales 1</span>
+                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline Whatsapp sales</span>
                     <p className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62 858 1974 0657</p>
                     <span className="text-[10px] text-slate-400">Respon cepat jam kerja (08.00 - 17.00 WIB)</span>
                   </div>
@@ -244,23 +244,9 @@ Dikirim melalui website resmi jmabadi.id`;
                     <MessageSquare className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline WhatsApp Sales 2</span>
+                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Hotline Whatsapp sales</span>
                     <p className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62 822 5058 0331</p>
                     <span className="text-[10px] text-slate-400">Respon cepat konsultasi teknik &amp; proyek</span>
-                  </div>
-                </a>
-
-                <a
-                  href="tel:+622180674900"
-                  className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 border border-slate-700/60 transition group"
-                >
-                  <div className="w-9 h-9 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center shrink-0">
-                    <Phone className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Telepon Kantor</span>
-                    <p className="text-sm font-bold text-white group-hover:text-blue-400 transition-colors">+62 21-8067-4900</p>
-                    <span className="text-[10px] text-slate-400">Head Office Hunting Line</span>
                   </div>
                 </a>
 
